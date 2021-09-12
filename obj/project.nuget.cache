@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "jdKFutjjVCEoFuvccNj6JlNGmTISsg0vPxx+iyM0yLysC+KsfljSvhOHJXsQ/5XQK9M94/8L5RpjnWQCGFrJlw==",
+  "dgSpecHash": "jQpZ3KAgbEDCOxybl0l1BBmR4RaK5tTJv2mfKZmspDOSzljnBVKlBCk2j809UGFllJVXInJlALP7IGsGHTgzXw==",
   "success": true,
   "projectFilePath": "C:\\Programming\\backgroundchanger\\backgroundchanger.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\studio\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\studio\\.nuget\\packages\\microsoft.win32.registry\\4.4.0\\microsoft.win32.registry.4.4.0.nupkg.sha512",
+    "C:\\Users\\studio\\.nuget\\packages\\system.security.accesscontrol\\4.4.0\\system.security.accesscontrol.4.4.0.nupkg.sha512",
+    "C:\\Users\\studio\\.nuget\\packages\\system.security.principal.windows\\4.4.0\\system.security.principal.windows.4.4.0.nupkg.sha512"
+  ],
   "logs": []
 }
