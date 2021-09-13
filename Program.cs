@@ -58,30 +58,21 @@ namespace backgroundchanger
             //     // OR 
             //     //client.DownloadFileAsync(new Uri("https://hubbleharvest.ch:8080"), @"c:\temp\image35.jpg");
             // }
+            
             WebClient client = new WebClient();
+
             string img_path = @$".\{downloaded_images_folder_name}\{unix_timestamp}.jpg";
+
+            string img_path_absolute = Path.GetFullPath(img_path);
+
             //client.DownloadFileAsync(new Uri("http://hubbleharvest.ch:8080"), img_path);
-            client.DownloadFile(new Uri("http://hubbleharvest.ch:8080"), img_path);
+            client.DownloadFile(new Uri("http://hubbleharvest.ch:8080"), img_path_absolute);
 
             long filesize = new System.IO.FileInfo(img_path).Length;
             
             Console.WriteLine(filesize);
 
-            List<string> str_list = new List<string>();
-            str_list.Add("wtf");
-            str_list.Add("why");
-            str_list.Add("would");
-            str_list.Add("you");
-            str_list.Add("do");
-            str_list.Add("that");
-            Console.WriteLine("Hello World!");
-
-            foreach(var str in str_list)
-            {
-                Console.WriteLine(str);
-            }
-
-            SetWallpaper(img_path);
+            SetWallpaper(img_path_absolute);
 
         }
 
@@ -89,6 +80,7 @@ namespace backgroundchanger
         static public void SetWallpaper(String path)
         {
             RegistryKey key = Registry.CurrentUser.OpenSubKey(@"Control Panel\Desktop", true);
+            
             key.SetValue(@"WallpaperStyle", 0.ToString()); // 2 is stretched
             key.SetValue(@"TileWallpaper", 0.ToString());
  
