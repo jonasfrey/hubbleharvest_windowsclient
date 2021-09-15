@@ -1,5 +1,0 @@
-C:\Programming\backgroundchanger\bin\Debug\net5.0\publish\backgroundchanger.exe
-C:\Programming\backgroundchanger\bin\Debug\net5.0\publish\backgroundchanger.dll
-C:\Programming\backgroundchanger\bin\Debug\net5.0\publish\backgroundchanger.deps.json
-C:\Programming\backgroundchanger\bin\Debug\net5.0\publish\backgroundchanger.runtimeconfig.json
-C:\Programming\backgroundchanger\bin\Debug\net5.0\publish\backgroundchanger.pdb
